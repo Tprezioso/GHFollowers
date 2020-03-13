@@ -6,11 +6,13 @@
 //  Copyright © 2020 Thomas Prezioso. All rights reserved.
 //
 
-import Foundation
+import UIKit
+// This NetworkManager is a singleton
 
 class NetworkManager {
     static let shared = NetworkManager()
-    let baseURL = "https://api.github.com/users/"
+    private let baseURL = "https://api.github.com/users/"
+    let cache = NSCache<NSString, UIImage>()
     
     private init() {}
     
