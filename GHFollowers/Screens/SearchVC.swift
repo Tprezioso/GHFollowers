@@ -13,20 +13,17 @@ class SearchVC: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = GFTextField()
     let callToActionButton = GFButton(backgroundColor: .systemGreen, title: "Get Follwers")
-    
     var isUserNameEntered: Bool { return !usernameTextField.text!.isEmpty }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configureVCLayout()
-        
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: true)
-        
     }
     
     func createDismissKeyboardTapGesture() {
@@ -44,7 +41,6 @@ class SearchVC: UIViewController {
         followerListVC.username = usernameTextField.text
         followerListVC.title = usernameTextField.text
         navigationController?.pushViewController(followerListVC, animated: true)
-        
     }
     
     func configureLogoImageView() {
@@ -58,7 +54,6 @@ class SearchVC: UIViewController {
             logoImageView.heightAnchor.constraint(equalToConstant: 200),
             logoImageView.widthAnchor.constraint(equalToConstant: 200)
         ])
-        
     }
     
     func configureTextField() {
@@ -90,10 +85,9 @@ class SearchVC: UIViewController {
         configureTextField()
         concfigureCallToActionButton()
         createDismissKeyboardTapGesture()
-
     }
-    
 
+    
 }
 
 extension SearchVC: UITextFieldDelegate {
@@ -102,4 +96,5 @@ extension SearchVC: UITextFieldDelegate {
         
         return true
     }
+
 }
