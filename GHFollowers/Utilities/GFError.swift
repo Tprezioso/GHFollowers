@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Thomas Prezioso on 3/5/20.
+//  Created by Thomas Prezioso on 4/2/20.
 //  Copyright © 2020 Thomas Prezioso. All rights reserved.
 //
 
