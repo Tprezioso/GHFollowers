@@ -32,6 +32,7 @@
 		9F974A98242689930046D13C /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F974A97242689930046D13C /* GFEmptyStateView.swift */; };
 		9FBA56B5240F273A0095B6DC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA56B4240F273A0095B6DC /* Users.swift */; };
 		9FC4986D24106B1A00FCA363 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4986C24106B1A00FCA363 /* NetworkManager.swift */; };
+		9FC896B424426810005403F7 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC896B324426810005403F7 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		9F974A97242689930046D13C /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		9FBA56B4240F273A0095B6DC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		9FC4986C24106B1A00FCA363 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9FC896B324426810005403F7 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				9F974A97242689930046D13C /* GFEmptyStateView.swift */,
+				9FC896B324426810005403F7 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				9F0A332724183F1A00B3B117 /* GFAvatarImageView.swift in Sources */,
 				9F7243BF240F13A1004CF9C0 /* GFAlertVC.swift in Sources */,
 				9F736CCB2409EA8800C8C72D /* SearchVC.swift in Sources */,
+				9FC896B424426810005403F7 /* GFItemInfoView.swift in Sources */,
 				9F0A332524183E9300B3B117 /* FollowerCell.swift in Sources */,
 				9F7243C8240F251C004CF9C0 /* Follower.swift in Sources */,
 				9F13C33D243BB6890093F104 /* GFUserInfoHeaderVC.swift in Sources */,
