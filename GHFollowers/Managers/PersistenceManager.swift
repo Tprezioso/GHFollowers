@@ -19,7 +19,7 @@ enum PersistenceManager {
         static let favorites = "favorites"
     }
     
-    static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed : @escaping (GFError) -> Void) {
+    static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed : @escaping (GFError?) -> Void) {
         retrieveFavorites { result in
             switch result {
             case .success(let favorites):
@@ -38,7 +38,8 @@ enum PersistenceManager {
                     retrievedFavorites.removeAll { $0.login == favorite.login }
                 }
 
-                completed((save(favorites: [favorite]) ?? GFError(rawValue: "Fuck"))!)
+                completed(save(favorites: retrievedFavorites))
+                
             case .failure(let error):
                 completed(error)
             }
