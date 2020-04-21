@@ -38,6 +38,7 @@
 		9F974A98242689930046D13C /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F974A97242689930046D13C /* GFEmptyStateView.swift */; };
 		9FBA56B5240F273A0095B6DC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA56B4240F273A0095B6DC /* Users.swift */; };
 		9FC4986D24106B1A00FCA363 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4986C24106B1A00FCA363 /* NetworkManager.swift */; };
+		9FC7448F244FA5F7001E9043 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC7448E244FA5F7001E9043 /* FavoriteCell.swift */; };
 		9FC896B424426810005403F7 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC896B324426810005403F7 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		9F974A97242689930046D13C /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		9FBA56B4240F273A0095B6DC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		9FC4986C24106B1A00FCA363 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9FC7448E244FA5F7001E9043 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		9FC896B324426810005403F7 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9F0A332424183E9300B3B117 /* FollowerCell.swift */,
+				9FC7448E244FA5F7001E9043 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				9F736CCB2409EA8800C8C72D /* SearchVC.swift in Sources */,
 				9F10086B244508070092BFB3 /* GFFollowerItemVC.swift in Sources */,
 				9FC896B424426810005403F7 /* GFItemInfoView.swift in Sources */,
+				9FC7448F244FA5F7001E9043 /* FavoriteCell.swift in Sources */,
 				9F0A332524183E9300B3B117 /* FollowerCell.swift in Sources */,
 				9F7243C8240F251C004CF9C0 /* Follower.swift in Sources */,
 				9F13C33D243BB6890093F104 /* GFUserInfoHeaderVC.swift in Sources */,
