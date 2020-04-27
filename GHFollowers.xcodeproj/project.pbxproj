@@ -34,6 +34,8 @@
 		9F736CCD2409EAB700C8C72D /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F736CCC2409EAB700C8C72D /* FavoriteListVC.swift */; };
 		9F81ACB624469FE000029E7E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81ACB524469FE000029E7E /* Date+Ext.swift */; };
 		9F81ACB82446A01B00029E7E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81ACB72446A01B00029E7E /* String+Ext.swift */; };
+		9F8CABEF24571E3A0065B31E /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CABEE24571E3A0065B31E /* GFAlertContainerView.swift */; };
+		9F8CABF12457279A0065B31E /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CABF02457279A0065B31E /* GFDataLoadingVC.swift */; };
 		9F93A370243BC4A700E03CD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93A36F243BC4A700E03CD6 /* Constants.swift */; };
 		9F94602924538F8800F05745 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94602824538F8800F05745 /* GFTabBarController.swift */; };
 		9F974A98242689930046D13C /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F974A97242689930046D13C /* GFEmptyStateView.swift */; };
@@ -73,6 +75,8 @@
 		9F736CCC2409EAB700C8C72D /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		9F81ACB524469FE000029E7E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		9F81ACB72446A01B00029E7E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		9F8CABEE24571E3A0065B31E /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		9F8CABF02457279A0065B31E /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		9F93A36F243BC4A700E03CD6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9F94602824538F8800F05745 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		9F974A97242689930046D13C /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 			children = (
 				9F974A97242689930046D13C /* GFEmptyStateView.swift */,
 				9FC896B324426810005403F7 /* GFItemInfoView.swift */,
+				9F8CABEE24571E3A0065B31E /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				9F10086C244508E80092BFB3 /* ItemInfoVCs */,
 				9F7243BE240F13A1004CF9C0 /* GFAlertVC.swift */,
 				9F13C33C243BB6890093F104 /* GFUserInfoHeaderVC.swift */,
+				9F8CABF02457279A0065B31E /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 				9F81ACB82446A01B00029E7E /* String+Ext.swift in Sources */,
 				9F36A149240B1910003B9A9B /* GFButton.swift in Sources */,
 				9F7243C1240F1B11004CF9C0 /* UIViewController+.Ext.swift in Sources */,
+				9F8CABF12457279A0065B31E /* GFDataLoadingVC.swift in Sources */,
 				9F0A33292418540800B3B117 /* UIHelper.swift in Sources */,
 				9F1008672445007C0092BFB3 /* GFItemInfoVC.swift in Sources */,
 				9F93A370243BC4A700E03CD6 /* Constants.swift in Sources */,
@@ -370,6 +377,7 @@
 				9F13C33D243BB6890093F104 /* GFUserInfoHeaderVC.swift in Sources */,
 				9F38888F2436AEEC00844ED0 /* GFError.swift in Sources */,
 				9F7243BB240F1149004CF9C0 /* GFTitleLabel.swift in Sources */,
+				9F8CABEF24571E3A0065B31E /* GFAlertContainerView.swift in Sources */,
 				9FBA56B5240F273A0095B6DC /* Users.swift in Sources */,
 				9F81ACB624469FE000029E7E /* Date+Ext.swift in Sources */,
 				9F2704F1244A77FE00279D58 /* PersistenceManager.swift in Sources */,
