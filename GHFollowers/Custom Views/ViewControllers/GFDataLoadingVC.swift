@@ -10,7 +10,7 @@ import UIKit
 
 class GFDataLoadingVC: UIViewController {
 
-    fileprivate  var containerView: UIView!
+    var containerView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

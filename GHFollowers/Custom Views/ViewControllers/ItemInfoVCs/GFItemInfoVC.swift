@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol ItemInfoVCDelegate: class {
+    func didTapGitHubProfile(for user: User)
+    func didTapGetFollowers(for user: User)
+}
 
 class GFItemInfoVC: UIViewController {
 
